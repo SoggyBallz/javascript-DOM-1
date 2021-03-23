@@ -1,4 +1,23 @@
 window.addEventListener("load", function(){
+ 
+  document.getElementById("more_text_link").addEventListener("click", function() {
+   document.getElementById("more_text_content").style.display = "block"
+   document.getElementById("more_text_link").style.display = "none"
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   // Here is some pseudo-code to help you get started:
 
@@ -13,5 +32,3 @@ window.addEventListener("load", function(){
   //    from a hidden value to a shown value.
 
   // 5. Also modify the DOM to hide the "More info..." link.
-  
-});
