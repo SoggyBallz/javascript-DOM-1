@@ -5,20 +5,6 @@ window.addEventListener("load", function(){
    document.getElementById("more_text_link").style.display = "none"
   });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   // Here is some pseudo-code to help you get started:
 
   // 1. Get the DOM element which will be clicked.
